@@ -697,8 +697,8 @@ $nombrexml="2510202301099230287900110010010000004780314198012.xml";
 $rutafirmados='facturas/firmadas/';
 
 //ruta firma
-$pathCertificate = 'certificado.p12';
-$passwors = 'JohnDavis1969';
+$pathCertificate = 'ellibertador.p12';
+$passwors = 'LAE2022E';
 
 //$file ="sinfirmar.xml";
 $file =$ruta_no_firmados.$nombrexml;

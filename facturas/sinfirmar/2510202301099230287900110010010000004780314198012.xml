@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<factura id="comprobante" version="1.0.0">
+  <infoTributaria>
+    <ambiente>1</ambiente>
+    <tipoEmision>1</tipoEmision>
+    <razonSocial>NOMBRE DEL FIRMANTE</razonSocial>
+    <nombreComercial>NOMBRE COMERCIAL DEL FIRMANTE</nombreComercial>
+    <ruc>99999999999</ruc>
+    <claveAcceso>0305202301099230287900110010010000003940314198016</claveAcceso>
+    <codDoc>01</codDoc>
+    <estab>001</estab>
+    <ptoEmi>001</ptoEmi>
+    <secuencial>000000394</secuencial>
+    <dirMatriz>Simon BOlivar</dirMatriz>
+  </infoTributaria>
+  <infoFactura>
+    <fechaEmision>03/05/2023</fechaEmision>
+    <dirEstablecimiento>Simon Bolivar</dirEstablecimiento>
+    <obligadoContabilidad>SI</obligadoContabilidad>
+    <tipoIdentificacionComprador>05</tipoIdentificacionComprador>
+    <razonSocialComprador>NOMBRE DEL CONTRIBUYENTE</razonSocialComprador>
+    <identificacionComprador>99999999</identificacionComprador>
+    <totalSinImpuestos>1.00</totalSinImpuestos>
+    <totalDescuento>0</totalDescuento>
+    <totalConImpuestos>
+      <totalImpuesto>
+        <codigo>2</codigo>
+        <codigoPorcentaje>2</codigoPorcentaje>
+        <baseImponible>1.00</baseImponible>
+        <valor>0.12</valor>
+      </totalImpuesto>
+    </totalConImpuestos>
+    <propina>0</propina>
+    <importeTotal>1.12</importeTotal>
+    <moneda>DOLAR</moneda>
+    <pagos>
+      <pago>
+        <formaPago>01</formaPago>
+        <total>1.12</total>
+      </pago>
+    </pagos>
+  </infoFactura>
+  <detalles>
+    <detalle>
+      <codigoPrincipal>PB002</codigoPrincipal>
+      <codigoAuxiliar>PB002</codigoAuxiliar>
+      <descripcion>CONECTOR RJ45</descripcion>
+      <cantidad>1</cantidad>
+      <precioUnitario>0.50</precioUnitario>
+      <descuento>0.00</descuento>
+      <precioTotalSinImpuesto>0.50</precioTotalSinImpuesto>
+      <impuestos>
+        <impuesto>
+          <codigo>2</codigo>
+          <codigoPorcentaje>2</codigoPorcentaje>
+          <tarifa>12</tarifa>
+          <baseImponible>0.50</baseImponible>
+          <valor>0.06</valor>
+        </impuesto>
+      </impuestos>
+    </detalle>
+    <detalle>
+      <codigoPrincipal>PB002</codigoPrincipal>
+      <codigoAuxiliar>PB002</codigoAuxiliar>
+      <descripcion>CONECTOR RJ45</descripcion>
+      <cantidad>1</cantidad>
+      <precioUnitario>0.50</precioUnitario>
+      <descuento>0.00</descuento>
+      <precioTotalSinImpuesto>0.50</precioTotalSinImpuesto>
+      <impuestos>
+        <impuesto>
+          <codigo>2</codigo>
+          <codigoPorcentaje>2</codigoPorcentaje>
+          <tarifa>12</tarifa>
+          <baseImponible>0.50</baseImponible>
+          <valor>0.06</valor>
+        </impuesto>
+      </impuestos>
+    </detalle>
+  </detalles>
+  <infoAdicional>
+    <campoAdicional nombre="Direccion">en su casa por su casa</campoAdicional>
+    <campoAdicional nombre="Telefono">0999999999</campoAdicional>
+    <campoAdicional nombre="correo">pruebas@gmail.com</campoAdicional>
+  </infoAdicional>
+</factura>
